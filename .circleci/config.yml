@@ -1,0 +1,993 @@
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ assurup-domain ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ assurup-domain ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ assurup-domain ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ assurup-domain ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.subscription.domain.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.assurup.subscription.domain.AppTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ assurup-domain ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/assurup-domain-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ assurup-domain ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/assurup-domain-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/subscription/domain/assurup-domain/1.0.0-SNAPSHOT/assurup-domain-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/pom.xml to /Users/Armand/.m2/repository/com/assurup/subscription/domain/assurup-domain/1.0.0-SNAPSHOT/assurup-domain-1.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for subscription 1.0.0-SNAPSHOT:
+[INFO]
+[INFO] subscription ....................................... SUCCESS [  0.465 s]
+[INFO] upload-service ..................................... SUCCESS [  2.992 s]
+[INFO] assurup-rater ...................................... SUCCESS [ 10.129 s]
+[INFO] reporting-service .................................. SUCCESS [  3.868 s]
+[INFO] assurup-commons .................................... SUCCESS [  1.110 s]
+[INFO] user-service ....................................... SUCCESS [  1.243 s]
+[INFO] notification-service ............................... SUCCESS [  1.721 s]
+[INFO] subscription-webapp ................................ SUCCESS [ 41.715 s]
+[INFO] assurup-domain ..................................... SUCCESS [  1.540 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:05 min
+[INFO] Finished at: 2019-07-24T16:52:31+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] subscription                                                       [pom]
+[INFO] upload-service                                                     [jar]
+[INFO] assurup-rater                                                      [jar]
+[INFO] reporting-service                                                  [jar]
+[INFO] assurup-commons                                                    [jar]
+[INFO] user-service                                                       [jar]
+[INFO] notification-service                                               [jar]
+[INFO] subscription-webapp                                                [war]
+[INFO] assurup-domain                                                     [jar]
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 57 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 37 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for subscription 1.0.0-SNAPSHOT:
+[INFO]
+[INFO] subscription ....................................... SKIPPED
+[INFO] upload-service ..................................... SKIPPED
+[INFO] assurup-rater ...................................... SKIPPED
+[INFO] reporting-service .................................. SKIPPED
+[INFO] assurup-commons .................................... SKIPPED
+[INFO] user-service ....................................... SKIPPED
+[INFO] notification-service ............................... SKIPPED
+[INFO] subscription-webapp ................................ SKIPPED
+[INFO] assurup-domain ..................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.040 s
+[INFO] Finished at: 2019-07-24T16:52:35+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'jacoco' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/Users/Armand/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+➜  assurupReverting git:(webapp-unit-test) ✗ cd -
+~/Eclipse-assurup/assurupReverting/subscription-webapp
+➜  subscription-webapp git:(webapp-unit-test) ✗ mvn jacoco:report
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< com.assurup:subscription-webapp >-------------------
+[INFO] Building subscription-webapp 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:report (default-cli) @ subscription-webapp ---
+[INFO] Loading execution data file /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/jacoco.exec
+[INFO] Analyzed bundle 'subscription-webapp' with 242 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.111 s
+[INFO] Finished at: 2019-07-24T16:52:45+02:00
+[INFO] ------------------------------------------------------------------------
+➜  subscription-webapp git:(webapp-unit-test) ✗ open target/site/jacoco/index.html
+➜  subscription-webapp git:(webapp-unit-test) ✗ git add .
+➜  subscription-webapp git:(webapp-unit-test) ✗ cd ..
+➜  assurupReverting git:(webapp-unit-test) ✗ git add .
+➜  assurupReverting git:(webapp-unit-test) ✗ git commit -m "tested stripe and refactored. added a new class that encapsulate the stripe execution aka: stripeChargeHelper"
+[webapp-unit-test 6c9b012a] tested stripe and refactored. added a new class that encapsulate the stripe execution aka: stripeChargeHelper
+ Committer: Armand <Armand@MacBook-Pro-de-Anais.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 284 insertions(+), 28 deletions(-)
+ create mode 100644 subscription-webapp/src/main/java/com/assurup/subscription/payment/services/StripeChargeHelper.java
+ create mode 100644 subscription-webapp/src/test/java/com/assurup/subscription/payment/services/StripePaymentServiceTest.java
+➜  assurupReverting git:(webapp-unit-test) git push
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (21/21), 3.74 KiB | 1.87 MiB/s, done.
+Total 21 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/admin-assurup/subscription-app.git
+   32047cfc..6c9b012a  webapp-unit-test -> webapp-unit-test
+➜  assurupReverting git:(webapp-unit-test) ✗ git add .
+➜  assurupReverting git:(webapp-unit-test) ✗
+➜  assurupReverting git:(webapp-unit-test) ✗ mvn clean install && mvn jacoco:report
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] subscription                                                       [pom]
+[INFO] upload-service                                                     [jar]
+[INFO] assurup-rater                                                      [jar]
+[INFO] reporting-service                                                  [jar]
+[INFO] assurup-commons                                                    [jar]
+[INFO] user-service                                                       [jar]
+[INFO] notification-service                                               [jar]
+[INFO] subscription-webapp                                                [war]
+[INFO] assurup-domain                                                     [jar]
+[INFO]
+[INFO] ----------------------< com.assurup:subscription >----------------------
+[INFO] Building subscription 1.0.0-SNAPSHOT                               [1/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ subscription ---
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ subscription ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/pom.xml to /Users/Armand/.m2/repository/com/assurup/subscription/1.0.0-SNAPSHOT/subscription-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] ---------------------< com.assurup:upload-service >---------------------
+[INFO] Building upload-service 1.0.0-SNAPSHOT                             [2/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ upload-service ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ upload-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ upload-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ upload-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ upload-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ upload-service ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.upload.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.assurup.upload.AppTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ upload-service ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/target/upload-service-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ upload-service ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/target/upload-service-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/upload-service/1.0.0-SNAPSHOT/upload-service-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/upload-service/pom.xml to /Users/Armand/.m2/repository/com/assurup/upload-service/1.0.0-SNAPSHOT/upload-service-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] ------------< com.assurup.subscription.rater:assurup-rater >------------
+[INFO] Building assurup-rater 1.0.0-SNAPSHOT                              [3/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ assurup-rater ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/target
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ assurup-rater ---
+[INFO] argLine set to -javaagent:/Users/Armand/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/target/jacoco.exec
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ assurup-rater ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ assurup-rater ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 81 source files to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ assurup-rater ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ assurup-rater ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ assurup-rater ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.subscription.rater.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in com.assurup.subscription.rater.AppTest
+[INFO] Running com.assurup.subscription.rater.services.RcProLiabilityRecommendayionServiceTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.255 s - in com.assurup.subscription.rater.services.RcProLiabilityRecommendayionServiceTest
+[INFO] Running com.assurup.subscription.rater.strategy.hiscox.rcpro.ChubbRcProRaterTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.assurup.subscription.rater.strategy.hiscox.rcpro.ChubbRcProRaterTest
+[INFO] Running com.assurup.subscription.rater.strategy.hiscox.rcpro.HiscoxRcProCalculatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in com.assurup.subscription.rater.strategy.hiscox.rcpro.HiscoxRcProCalculatorTest
+[INFO] Running com.assurup.subscription.rater.strategy.hiscox.rcpro.HiscoxRcProDiscountTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.assurup.subscription.rater.strategy.hiscox.rcpro.HiscoxRcProDiscountTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ assurup-rater ---
+[INFO] Loading execution data file /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/target/jacoco.exec
+[INFO] Analyzed bundle 'assurup-rater' with 69 classes
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ assurup-rater ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/target/assurup-rater-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ assurup-rater ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/target/assurup-rater-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/subscription/rater/assurup-rater/1.0.0-SNAPSHOT/assurup-rater-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-rater/pom.xml to /Users/Armand/.m2/repository/com/assurup/subscription/rater/assurup-rater/1.0.0-SNAPSHOT/assurup-rater-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] -------------------< com.assurup:reporting-service >--------------------
+[INFO] Building reporting-service 1.0.0-SNAPSHOT                          [4/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ reporting-service ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/reporting-service/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ reporting-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 67 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ reporting-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 103 source files to /Users/Armand/Eclipse-assurup/assurupReverting/reporting-service/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ reporting-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/reporting-service/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ reporting-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/Armand/Eclipse-assurup/assurupReverting/reporting-service/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ reporting-service ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.signature.docusign.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.assurup.signature.docusign.AppTest
+[INFO] Running com.assurup.subscription.report.service.xdocreport.ProjectReportServiceImplTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.079 s - in com.assurup.subscription.report.service.xdocreport.ProjectReportServiceImplTest
+[INFO]
+[INFO] Results:
+[INFO]
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ reporting-service ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/reporting-service/target/reporting-service-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ reporting-service ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/reporting-service/target/reporting-service-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/reporting-service/1.0.0-SNAPSHOT/reporting-service-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/reporting-service/pom.xml to /Users/Armand/.m2/repository/com/assurup/reporting-service/1.0.0-SNAPSHOT/reporting-service-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] --------------------< com.assurup:assurup-commons >---------------------
+[INFO] Building assurup-commons 1.0.0-SNAPSHOT                            [5/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ assurup-commons ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ assurup-commons ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ assurup-commons ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ assurup-commons ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ assurup-commons ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ assurup-commons ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.commons.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.assurup.commons.AppTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ assurup-commons ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/target/assurup-commons-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ assurup-commons ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/target/assurup-commons-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/assurup-commons/1.0.0-SNAPSHOT/assurup-commons-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-commons/pom.xml to /Users/Armand/.m2/repository/com/assurup/assurup-commons/1.0.0-SNAPSHOT/assurup-commons-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] ----------------------< com.assurup:user-service >----------------------
+[INFO] Building user-service 1.0.0-SNAPSHOT                               [6/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ user-service ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/user-service/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ user-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/user-service/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/user-service/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ user-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /Users/Armand/Eclipse-assurup/assurupReverting/user-service/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ user-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/user-service/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ user-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/Armand/Eclipse-assurup/assurupReverting/user-service/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ user-service ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.usermanagement.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.assurup.usermanagement.AppTest
+[INFO] Running com.assurup.usermanagement.annotation.StrongPasswordValidatorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.assurup.usermanagement.annotation.StrongPasswordValidatorTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ user-service ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/user-service/target/user-service-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ user-service ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/user-service/target/user-service-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/user-service/1.0.0-SNAPSHOT/user-service-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/user-service/pom.xml to /Users/Armand/.m2/repository/com/assurup/user-service/1.0.0-SNAPSHOT/user-service-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] ------------------< com.assurup:notification-service >------------------
+[INFO] Building notification-service 1.0.0-SNAPSHOT                       [7/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ notification-service ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ notification-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ notification-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 52 source files to /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ notification-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ notification-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ notification-service ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.notification.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in com.assurup.notification.AppTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ notification-service ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/target/notification-service-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ notification-service ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/target/notification-service-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/notification-service/1.0.0-SNAPSHOT/notification-service-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/notification-service/pom.xml to /Users/Armand/.m2/repository/com/assurup/notification-service/1.0.0-SNAPSHOT/notification-service-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] ------------------< com.assurup:subscription-webapp >-------------------
+[INFO] Building subscription-webapp 1.0.0-SNAPSHOT                        [8/9]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ subscription-webapp ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ subscription-webapp ---
+[INFO] argLine set to -javaagent:/Users/Armand/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/jacoco.exec
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ subscription-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 5002 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ subscription-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 283 source files to /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/classes
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/payment/services/StripePriceHelper.java: Some input files use or override a deprecated API.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/payment/services/StripePriceHelper.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/core/presentation/action/ProductAction.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/core/presentation/action/ProductAction.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ subscription-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ subscription-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/test-classes
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/java/com/assurup/subscription/core/presentation/action/RcProActionTest.java: /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/java/com/assurup/subscription/core/presentation/action/RcProActionTest.java uses unchecked or unsafe operations.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/java/com/assurup/subscription/core/presentation/action/RcProActionTest.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ subscription-webapp ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.subscription.rater.services.PriceCalculatorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.706 s - in com.assurup.subscription.rater.services.PriceCalculatorTest
+[INFO] Running com.assurup.subscription.rater.services.HiscoxRoundingModeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in com.assurup.subscription.rater.services.HiscoxRoundingModeTest
+[INFO] Running com.assurup.subscription.core.service.ChubbContractReferenceGeneratorListenerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.assurup.subscription.core.service.ChubbContractReferenceGeneratorListenerTest
+[INFO] Running com.assurup.subscription.core.presentation.action.RcProActionTest
+10:55:28.911 [main] DEBUG org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@394e504d
+10:55:29.283 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing Flow ApplicationContext [rc-professionnelle-flow]
+10:55:29.285 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+10:55:29.356 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+10:55:29.361 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+10:55:29.362 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+10:55:29.363 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+10:55:29.372 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+10:55:29.504 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'rc-professionnelle-flow'
+10:55:29.555 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@4fc41cba
+10:55:29.564 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@4b1339bf name = 'subscription', valueFactory = [BeanFactoryVariableValueFactory@46f43f50 type = Subscription]]
+10:55:29.632 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@3f02dc34 name = 'employee', valueFactory = [BeanFactoryVariableValueFactory@7f49fa1d type = AssurupUser]]
+10:55:29.633 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@6e211727 name = 'company', valueFactory = [BeanFactoryVariableValueFactory@5b6b5888 type = Company]]
+10:55:29.648 [main] DEBUG org.springframework.webflow.engine.ViewState - Event 'next' returned from view [MockViewFactoryCreator.MockView@10ba757f viewId = 'subscription/activities']
+10:55:29.650 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@2523730b expression = rcProAction.addActivities, resultExpression = [null]]
+10:55:29.650 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+10:55:29.662 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing com.assurup.subscription.core.presentation.action.RcProAction@28322fd3
+10:55:29.662 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map['method' -> 'addActivities']
+10:55:29.676 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map['method' -> 'addActivities']
+10:55:29.677 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing com.assurup.subscription.core.presentation.action.RcProAction@28322fd3; result = success
+10:55:29.677 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+10:55:29.678 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@2523730b expression = rcProAction.addActivities, resultExpression = [null]]; result = success
+10:55:29.679 [main] DEBUG org.springframework.webflow.engine.Transition - Executing [Transition@1b60c196 on = next, to = survey]
+10:55:29.679 [main] DEBUG org.springframework.webflow.engine.Transition - Exiting state 'activityView'
+10:55:29.679 [main] DEBUG org.springframework.webflow.engine.ViewState - Entering state 'survey' of flow 'rc-professionnelle-flow'
+10:55:29.680 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+10:55:29.681 [main] DEBUG org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@5e9f4f76 viewId = 'rc-professionnelle/survey']
+10:55:29.681 [main] DEBUG org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+10:55:29.682 [main] DEBUG org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@43ee4942 sourceMessages = map[[null] -> list[[empty]]]]
+10:55:29.682 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@a6e0e5f expression = rcProAction.initSurvey, resultExpression = [null]]
+10:55:29.682 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+10:55:29.682 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing com.assurup.subscription.core.presentation.action.RcProAction@28322fd3
+10:55:29.682 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map['method' -> 'initSurvey']
+10:55:29.684 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map['method' -> 'initSurvey']
+10:55:29.685 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing com.assurup.subscription.core.presentation.action.RcProAction@28322fd3; result = success
+10:55:29.685 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+10:55:29.685 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@a6e0e5f expression = rcProAction.initSurvey, resultExpression = [null]]; result = success
+10:55:29.685 [main] DEBUG org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the new state is 'survey' in flow 'rc-professionnelle-flow'
+10:55:29.697 [main] DEBUG org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@793af433
+10:55:29.764 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing Flow ApplicationContext [rc-professionnelle-flow]
+10:55:29.765 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+10:55:29.767 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+10:55:29.768 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+10:55:29.768 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+10:55:29.769 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+10:55:29.769 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+10:55:29.784 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'rc-professionnelle-flow'
+10:55:29.786 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@6988dc14
+10:55:29.787 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@2b5a659f name = 'subscription', valueFactory = [BeanFactoryVariableValueFactory@43bda665 type = Subscription]]
+10:55:29.792 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@1540b926 name = 'employee', valueFactory = [BeanFactoryVariableValueFactory@3a07afe6 type = AssurupUser]]
+10:55:29.792 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@428943a4 name = 'company', valueFactory = [BeanFactoryVariableValueFactory@6ca95b1e type = Company]]
+10:55:29.793 [main] DEBUG org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@7c305624 viewId = 'subscription/activities']
+10:55:29.793 [main] DEBUG org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+10:55:29.794 [main] DEBUG org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@7b4fbedb sourceMessages = map[[null] -> list[[empty]]]]
+10:55:29.794 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@73534675 expression = rcProAction.initActivity, resultExpression = [null]]
+10:55:29.794 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+10:55:29.795 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing com.assurup.subscription.core.presentation.action.RcProAction@550482aa
+10:55:29.796 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map['method' -> 'initActivity']
+10:55:29.801 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map['method' -> 'initActivity']
+10:55:29.801 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing com.assurup.subscription.core.presentation.action.RcProAction@550482aa; result = yes
+10:55:29.802 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+10:55:29.805 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@73534675 expression = rcProAction.initActivity, resultExpression = [null]]; result = yes
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.009 s - in com.assurup.subscription.core.presentation.action.RcProActionTest
+[INFO] Running com.assurup.subscription.core.presentation.validation.CompanyValidatorTest
+10:55:29.828 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@6434827e source = 'name', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'La raison sociale obligatoire']
+10:55:29.829 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@4c94621d source = 'name', severity = ERROR, text = 'La raison sociale obligatoire']
+10:55:29.831 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@2ecb7f0c source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Merci de renseigner un chiffre d'affaire supérieur à 0']
+10:55:29.832 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@16be2c40 source = 'revenue', severity = ERROR, text = 'Merci de renseigner un chiffre d'affaire supérieur à 0']
+10:55:29.838 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@3e51beda source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Le chiffre d'affaire ne doit pas dépasser 10 000 000']
+10:55:29.839 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@51bab787 source = 'revenue', severity = ERROR, text = 'Le chiffre d'affaire ne doit pas dépasser 10 000 000']
+10:55:29.841 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@24fc91a3 source = 'siret', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner un numéro de SIRET valide']
+10:55:29.841 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@43c76550 source = 'siret', severity = ERROR, text = 'Vous devez renseigner un numéro de SIRET valide']
+10:55:29.842 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@70d3b49c source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner votre chiffre d'affaires']
+10:55:29.842 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@7451338e source = 'revenue', severity = ERROR, text = 'Vous devez renseigner votre chiffre d'affaires']
+10:55:29.843 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@34e0d52e source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner votre chiffre d'affaires']
+10:55:29.843 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@4cf5db07 source = 'revenue', severity = ERROR, text = 'Vous devez renseigner votre chiffre d'affaires']
+10:55:29.845 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@216fe151 source = 'mainActivity', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner un code naf valide']
+10:55:29.846 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@5cdf6bb1 source = 'mainActivity', severity = ERROR, text = 'Vous devez renseigner un code naf valide']
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.assurup.subscription.core.presentation.validation.CompanyValidatorTest
+[INFO] Running com.assurup.subscription.payment.services.StripePriceHelperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.assurup.subscription.payment.services.StripePriceHelperTest
+[INFO] Running com.assurup.subscription.payment.services.StripePaymentServiceTest
+10:55:30.122 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - End of charging
+10:55:30.132 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+10:55:30.132 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+10:55:30.136 [main] ERROR com.assurup.subscription.payment.services.StripePaymentService - error during payment :
+com.stripe.exception.CardException: null
+10:55:30.164 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+10:55:30.164 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s - in com.assurup.subscription.payment.services.StripePaymentServiceTest
+[INFO] Running com.assurup.subscription.mandat.GoCardLessMandateServiceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in com.assurup.subscription.mandat.GoCardLessMandateServiceTest
+[INFO] Running com.assurup.event.service.impl.GoCardLessEventServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.864 s - in com.assurup.event.service.impl.GoCardLessEventServiceTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ subscription-webapp ---
+[INFO] Loading execution data file /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/jacoco.exec
+[INFO] Analyzed bundle 'subscription-webapp' with 242 classes
+[INFO]
+[INFO] --- maven-war-plugin:3.2.2:war (default-war) @ subscription-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [subscription-webapp] in [/Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [4841 msecs]
+[INFO] Building war: /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT.war
+[INFO]
+[INFO] --- spring-boot-maven-plugin:2.1.0.RELEASE:repackage (repackage) @ subscription-webapp ---
+[INFO] Replacing main artifact /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT.war
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ subscription-webapp ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT.war to /Users/Armand/.m2/repository/com/assurup/subscription-webapp/1.0.0-SNAPSHOT/subscription-webapp-1.0.0-SNAPSHOT.war
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/pom.xml to /Users/Armand/.m2/repository/com/assurup/subscription-webapp/1.0.0-SNAPSHOT/subscription-webapp-1.0.0-SNAPSHOT.pom
+[INFO]
+[INFO] -----------< com.assurup.subscription.domain:assurup-domain >-----------
+[INFO] Building assurup-domain 1.0.0-SNAPSHOT                             [9/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ assurup-domain ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ assurup-domain ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ assurup-domain ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ assurup-domain ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ assurup-domain ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ assurup-domain ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.subscription.domain.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in com.assurup.subscription.domain.AppTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ assurup-domain ---
+[INFO] Building jar: /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/assurup-domain-1.0.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ assurup-domain ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/target/assurup-domain-1.0.0-SNAPSHOT.jar to /Users/Armand/.m2/repository/com/assurup/subscription/domain/assurup-domain/1.0.0-SNAPSHOT/assurup-domain-1.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/assurup-domain/pom.xml to /Users/Armand/.m2/repository/com/assurup/subscription/domain/assurup-domain/1.0.0-SNAPSHOT/assurup-domain-1.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for subscription 1.0.0-SNAPSHOT:
+[INFO]
+[INFO] subscription ....................................... SUCCESS [  0.505 s]
+[INFO] upload-service ..................................... SUCCESS [  3.308 s]
+[INFO] assurup-rater ...................................... SUCCESS [ 10.877 s]
+[INFO] reporting-service .................................. SUCCESS [  4.532 s]
+[INFO] assurup-commons .................................... SUCCESS [  1.126 s]
+[INFO] user-service ....................................... SUCCESS [  1.167 s]
+[INFO] notification-service ............................... SUCCESS [  1.620 s]
+[INFO] subscription-webapp ................................ SUCCESS [ 37.966 s]
+[INFO] assurup-domain ..................................... SUCCESS [  1.533 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:03 min
+[INFO] Finished at: 2019-07-25T10:55:49+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] subscription                                                       [pom]
+[INFO] upload-service                                                     [jar]
+[INFO] assurup-rater                                                      [jar]
+[INFO] reporting-service                                                  [jar]
+[INFO] assurup-commons                                                    [jar]
+[INFO] user-service                                                       [jar]
+[INFO] notification-service                                               [jar]
+[INFO] subscription-webapp                                                [war]
+[INFO] assurup-domain                                                     [jar]
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 23 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 9.7 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for subscription 1.0.0-SNAPSHOT:
+[INFO]
+[INFO] subscription ....................................... SKIPPED
+[INFO] upload-service ..................................... SKIPPED
+[INFO] assurup-rater ...................................... SKIPPED
+[INFO] reporting-service .................................. SKIPPED
+[INFO] assurup-commons .................................... SKIPPED
+[INFO] user-service ....................................... SKIPPED
+[INFO] notification-service ............................... SKIPPED
+[INFO] subscription-webapp ................................ SKIPPED
+[INFO] assurup-domain ..................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.134 s
+[INFO] Finished at: 2019-07-25T10:55:53+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'jacoco' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/Users/Armand/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+➜  assurupReverting git:(webapp-unit-test) ✗ git add .
+➜  assurupReverting git:(webapp-unit-test) ✗ git commit -m "refactored the goCardLessmandateservice: encapsulated in a better way elements sent to us"
+[webapp-unit-test 60f524ee] refactored the goCardLessmandateservice: encapsulated in a better way elements sent to us
+ Committer: Armand <Armand@MacBook-Pro-de-Anais.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 137 insertions(+), 5 deletions(-)
+➜  assurupReverting git:(webapp-unit-test) git push
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (23/23), 3.29 KiB | 1.10 MiB/s, done.
+Total 23 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), completed with 9 local objects.
+To https://github.com/admin-assurup/subscription-app.git
+   6c9b012a..60f524ee  webapp-unit-test -> webapp-unit-test
+➜  assurupReverting git:(webapp-unit-test) cd subscription-webapp
+➜  subscription-webapp git:(webapp-unit-test) mvn clean install && mvn jacoco:report
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< com.assurup:subscription-webapp >-------------------
+[INFO] Building subscription-webapp 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ subscription-webapp ---
+[INFO] Deleting /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ subscription-webapp ---
+[INFO] argLine set to -javaagent:/Users/Armand/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/jacoco.exec
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ subscription-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 5002 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ subscription-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 283 source files to /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/classes
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/payment/services/StripePriceHelper.java: Some input files use or override a deprecated API.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/payment/services/StripePriceHelper.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/core/presentation/action/ProductAction.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/main/java/com/assurup/subscription/core/presentation/action/ProductAction.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ subscription-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ subscription-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/test-classes
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/java/com/assurup/subscription/core/presentation/action/RcProActionTest.java: /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/java/com/assurup/subscription/core/presentation/action/RcProActionTest.java uses unchecked or unsafe operations.
+[INFO] /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/src/test/java/com/assurup/subscription/core/presentation/action/RcProActionTest.java: Recompile with -Xlint:unchecked for details.
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ subscription-webapp ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.assurup.subscription.rater.services.PriceCalculatorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.925 s - in com.assurup.subscription.rater.services.PriceCalculatorTest
+[INFO] Running com.assurup.subscription.rater.services.HiscoxRoundingModeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in com.assurup.subscription.rater.services.HiscoxRoundingModeTest
+[INFO] Running com.assurup.subscription.core.service.ChubbContractReferenceGeneratorListenerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in com.assurup.subscription.core.service.ChubbContractReferenceGeneratorListenerTest
+[INFO] Running com.assurup.subscription.core.presentation.action.RcProActionTest
+12:46:33.054 [main] DEBUG org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@10230657
+12:46:33.428 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing Flow ApplicationContext [rc-professionnelle-flow]
+12:46:33.430 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+12:46:33.523 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+12:46:33.539 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+12:46:33.544 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+12:46:33.550 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+12:46:33.566 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+12:46:33.701 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'rc-professionnelle-flow'
+12:46:33.762 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@39d5376c
+12:46:33.771 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@20395afe name = 'subscription', valueFactory = [BeanFactoryVariableValueFactory@2dfdea3a type = Subscription]]
+12:46:33.848 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@fa3db48 name = 'employee', valueFactory = [BeanFactoryVariableValueFactory@19158d56 type = AssurupUser]]
+12:46:33.849 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@3f02dc34 name = 'company', valueFactory = [BeanFactoryVariableValueFactory@7f49fa1d type = Company]]
+12:46:33.860 [main] DEBUG org.springframework.webflow.engine.ViewState - Event 'next' returned from view [MockViewFactoryCreator.MockView@71639428 viewId = 'subscription/activities']
+12:46:33.861 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@2381a837 expression = rcProAction.addActivities, resultExpression = [null]]
+12:46:33.861 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+12:46:33.868 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing com.assurup.subscription.core.presentation.action.RcProAction@1b3606e8
+12:46:33.870 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map['method' -> 'addActivities']
+12:46:33.884 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map['method' -> 'addActivities']
+12:46:33.884 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing com.assurup.subscription.core.presentation.action.RcProAction@1b3606e8; result = success
+12:46:33.885 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+12:46:33.885 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@2381a837 expression = rcProAction.addActivities, resultExpression = [null]]; result = success
+12:46:33.885 [main] DEBUG org.springframework.webflow.engine.Transition - Executing [Transition@47ba8e3c on = next, to = survey]
+12:46:33.885 [main] DEBUG org.springframework.webflow.engine.Transition - Exiting state 'activityView'
+12:46:33.886 [main] DEBUG org.springframework.webflow.engine.ViewState - Entering state 'survey' of flow 'rc-professionnelle-flow'
+12:46:33.886 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+12:46:33.886 [main] DEBUG org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@1c7aa676 viewId = 'rc-professionnelle/survey']
+12:46:33.886 [main] DEBUG org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+12:46:33.887 [main] DEBUG org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@fa200ab sourceMessages = map[[null] -> list[[empty]]]]
+12:46:33.887 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@5e9f4f76 expression = rcProAction.initSurvey, resultExpression = [null]]
+12:46:33.887 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+12:46:33.888 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing com.assurup.subscription.core.presentation.action.RcProAction@1b3606e8
+12:46:33.888 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map['method' -> 'initSurvey']
+12:46:33.889 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map['method' -> 'initSurvey']
+12:46:33.890 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing com.assurup.subscription.core.presentation.action.RcProAction@1b3606e8; result = success
+12:46:33.890 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+12:46:33.890 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@5e9f4f76 expression = rcProAction.initSurvey, resultExpression = [null]]; result = success
+12:46:33.890 [main] DEBUG org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the new state is 'survey' in flow 'rc-professionnelle-flow'
+12:46:33.901 [main] DEBUG org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@4644b1c6
+12:46:33.949 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing Flow ApplicationContext [rc-professionnelle-flow]
+12:46:33.950 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+12:46:33.951 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+12:46:33.953 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+12:46:33.954 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+12:46:33.955 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+12:46:33.955 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+12:46:33.990 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'rc-professionnelle-flow'
+12:46:33.994 [main] DEBUG org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@64c189d8
+12:46:33.995 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@294ffc88 name = 'subscription', valueFactory = [BeanFactoryVariableValueFactory@6988dc14 type = Subscription]]
+12:46:33.998 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@2b5a659f name = 'employee', valueFactory = [BeanFactoryVariableValueFactory@43bda665 type = AssurupUser]]
+12:46:33.999 [main] DEBUG org.springframework.webflow.engine.Flow - Restoring [FlowVariable@1540b926 name = 'company', valueFactory = [BeanFactoryVariableValueFactory@3a07afe6 type = Company]]
+12:46:34.000 [main] DEBUG org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@428943a4 viewId = 'subscription/activities']
+12:46:34.001 [main] DEBUG org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+12:46:34.001 [main] DEBUG org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@6ca95b1e sourceMessages = map[[null] -> list[[empty]]]]
+12:46:34.001 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@7c305624 expression = rcProAction.initActivity, resultExpression = [null]]
+12:46:34.001 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+12:46:34.003 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Executing com.assurup.subscription.core.presentation.action.RcProAction@7b4fbedb
+12:46:34.003 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map['method' -> 'initActivity']
+12:46:34.006 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map['method' -> 'initActivity']
+12:46:34.007 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing com.assurup.subscription.core.presentation.action.RcProAction@7b4fbedb; result = yes
+12:46:34.007 [main] DEBUG org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+12:46:34.008 [main] DEBUG org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@7c305624 expression = rcProAction.initActivity, resultExpression = [null]]; result = yes
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.049 s - in com.assurup.subscription.core.presentation.action.RcProActionTest
+[INFO] Running com.assurup.subscription.core.presentation.validation.CompanyValidatorTest
+12:46:34.043 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@61b06782 source = 'name', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'La raison sociale obligatoire']
+12:46:34.046 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@33116b8e source = 'name', severity = ERROR, text = 'La raison sociale obligatoire']
+12:46:34.047 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@54ff871a source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Merci de renseigner un chiffre d'affaire supérieur à 0']
+12:46:34.047 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@4c94621d source = 'revenue', severity = ERROR, text = 'Merci de renseigner un chiffre d'affaire supérieur à 0']
+12:46:34.052 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@2ecb7f0c source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Le chiffre d'affaire ne doit pas dépasser 10 000 000']
+12:46:34.053 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@16be2c40 source = 'revenue', severity = ERROR, text = 'Le chiffre d'affaire ne doit pas dépasser 10 000 000']
+12:46:34.055 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@3e51beda source = 'siret', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner un numéro de SIRET valide']
+12:46:34.055 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@51bab787 source = 'siret', severity = ERROR, text = 'Vous devez renseigner un numéro de SIRET valide']
+12:46:34.055 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@24fc91a3 source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner votre chiffre d'affaires']
+12:46:34.056 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@43c76550 source = 'revenue', severity = ERROR, text = 'Vous devez renseigner votre chiffre d'affaires']
+12:46:34.061 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@70d3b49c source = 'revenue', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner votre chiffre d'affaires']
+12:46:34.062 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@7451338e source = 'revenue', severity = ERROR, text = 'Vous devez renseigner votre chiffre d'affaires']
+12:46:34.064 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Resolving message using [DefaultMessageResolver@34e0d52e source = 'mainActivity', severity = ERROR, codes = array<String>[[empty]], args = array<Object>[[empty]], defaultText = 'Vous devez renseigner un code naf valide']
+12:46:34.065 [main] DEBUG org.springframework.binding.message.DefaultMessageContext - Adding resolved message [Message@4cf5db07 source = 'mainActivity', severity = ERROR, text = 'Vous devez renseigner un code naf valide']
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in com.assurup.subscription.core.presentation.validation.CompanyValidatorTest
+[INFO] Running com.assurup.subscription.payment.services.StripePriceHelperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.assurup.subscription.payment.services.StripePriceHelperTest
+[INFO] Running com.assurup.subscription.payment.services.StripePaymentServiceTest
+12:46:34.301 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - End of charging
+12:46:34.313 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+12:46:34.313 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+12:46:34.317 [main] ERROR com.assurup.subscription.payment.services.StripePaymentService - error during payment :
+com.stripe.exception.CardException: null
+12:46:34.335 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+12:46:34.336 [main] DEBUG com.assurup.subscription.payment.services.StripePaymentService - Charging amount = null
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s - in com.assurup.subscription.payment.services.StripePaymentServiceTest
+[INFO] Running com.assurup.subscription.mandat.GoCardLessMandateServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in com.assurup.subscription.mandat.GoCardLessMandateServiceTest
+[INFO] Running com.assurup.event.service.impl.GoCardLessEventServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.982 s - in com.assurup.event.service.impl.GoCardLessEventServiceTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ subscription-webapp ---
+[INFO] Loading execution data file /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/jacoco.exec
+[INFO] Analyzed bundle 'subscription-webapp' with 242 classes
+[INFO]
+[INFO] --- maven-war-plugin:3.2.2:war (default-war) @ subscription-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [subscription-webapp] in [/Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [6412 msecs]
+[INFO] Building war: /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT.war
+[INFO]
+[INFO] --- spring-boot-maven-plugin:2.1.0.RELEASE:repackage (repackage) @ subscription-webapp ---
+[INFO] Replacing main artifact /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT.war
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ subscription-webapp ---
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/subscription-webapp-1.0.0-SNAPSHOT.war to /Users/Armand/.m2/repository/com/assurup/subscription-webapp/1.0.0-SNAPSHOT/subscription-webapp-1.0.0-SNAPSHOT.war
+[INFO] Installing /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/pom.xml to /Users/Armand/.m2/repository/com/assurup/subscription-webapp/1.0.0-SNAPSHOT/subscription-webapp-1.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  46.474 s
+[INFO] Finished at: 2019-07-25T12:46:55+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< com.assurup:subscription-webapp >-------------------
+[INFO] Building subscription-webapp 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.8.2:report (default-cli) @ subscription-webapp ---
+[INFO] Loading execution data file /Users/Armand/Eclipse-assurup/assurupReverting/subscription-webapp/target/jacoco.exec
+[INFO] Analyzed bundle 'subscription-webapp' with 242 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.751 s
+[INFO] Finished at: 2019-07-25T12:47:00+02:00
+[INFO] ------------------------------------------------------------------------
+➜  subscription-webapp git:(webapp-unit-test) open target/site/jacoco/index.html
+➜  subscription-webapp git:(webapp-unit-test) cd
+➜  ~ ls
+Applications       Documents          Eclipse-assurup    Music              Public             eclipse            ngrok              public.ctr         workagain
+Delegation         Downloads          Library            Pictures           aaa                eclipse-workspace  ohmyzsh            school_42
+Desktop            Dropbox (Assur'Up) Movies             Postman            assurup            git                public.crt         work
+➜  ~ mkdir circleCI test
+➜  ~ ls
+Applications       Documents          Eclipse-assurup    Music              Public             circleCI           git                public.crt         test
+Delegation         Downloads          Library            Pictures           aaa                eclipse            ngrok              public.ctr         work
+Desktop            Dropbox (Assur'Up) Movies             Postman            assurup            eclipse-workspace  ohmyzsh            school_42          workagain
+➜  ~ rm -r test
+➜  ~ rm p
+rm: p: No such file or directory
+➜  ~ rm public.crt
+➜  ~ rm public.ctr
+➜  ~ ls
+Applications       Documents          Eclipse-assurup    Music              Public             circleCI           git                school_42
+Delegation         Downloads          Library            Pictures           aaa                eclipse            ngrok              work
+Desktop            Dropbox (Assur'Up) Movies             Postman            assurup            eclipse-workspace  ohmyzsh            workagain
+➜  ~ cd circleCI
+➜  circleCI ld
+ld: warning: No version-min specified on command line
+ld: no object files specified
+➜  circleCI ls
+➜  circleCI echo "# circleCI_test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ArmandBiestroAsr/circleCI_test.git
+git push -u origin master
+Initialized empty Git repository in /Users/Armand/circleCI/.git/
+[master (root-commit) f5bf790] first commit
+ Committer: Armand <Armand@MacBook-Pro-de-Anais.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 236 bytes | 236.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ArmandBiestroAsr/circleCI_test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+➜  circleCI git:(master) ls
+README.md
+➜  circleCI git:(master) mkdir circleci
+➜  circleCI git:(master) cd circleci
+➜  circleci git:(master) cd ..
+➜  circleCI git:(master) mvn circleci circleci/
