@@ -4,7 +4,7 @@
 #
 version: 2
 orbs:
-  sonarqube: onehq/sonarqube@0.3.0
+    sonarqube-analyzer: corballis/sonarqube-analyzer@0.1.1
 
 jobs:
   build:
@@ -35,7 +35,7 @@ jobs:
 
       - run: mvn dependency:go-offline
 
-      - sonarqube/scanner
+      - sonarqube-analyzer/check-code-quality
 
       - save_cache:
           paths:
@@ -43,4 +43,4 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
       # run tests!
-      
+      - run: mvn integration-test
