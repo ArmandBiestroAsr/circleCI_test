@@ -35,7 +35,7 @@ jobs:
 
       - run: mvn dependency:go-offline
 
-      - onehq: scanner
+      - sonarqube: scanner
 
       - save_cache:
           paths:
