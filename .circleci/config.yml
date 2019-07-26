@@ -36,10 +36,10 @@ jobs:
       - run: mvn dependency:go-offline
 
       - sonarqube-analyzer/check-code-quality:
-          maven_working_directory : ./
+          maven_working_directory : src
           sonar_server_url :  https://27ad614a.ngrok.io
           sonar_login : 6fd429d697ab0bf992b3706e23a320c8b8021a17
-          sonar_project_dir: src/main/java
+          sonar_project_dir: src/
 
       - save_cache:
           paths:
