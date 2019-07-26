@@ -36,8 +36,8 @@ jobs:
       - run: mvn dependency:go-offline
 
       - run: sonarqube-analyzer/check-code-quality
-              maven_working_directory: "~/repo"
-              sonar_project_dir: "~/repo"
+              maven_working_directory: ~/repo
+              sonar_project_dir: ~/repo
 
      
 
