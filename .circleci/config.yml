@@ -37,7 +37,7 @@ jobs:
 
       - sonarqube-analyzer/check-code-quality:
               maven_working_directory: ~/repo
-              onar_project_dir: ~/repo
+              sonar_project_dir: ~/repo
 
      
 
